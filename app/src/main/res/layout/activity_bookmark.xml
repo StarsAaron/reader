@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bysj.reader.ui.BookmarkActivity"
+    android:background="@mipmap/ic_bg5"
+    >
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_bookmark_list"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:divider="@null"
+        android:choiceMode="none"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="还没有书签哦！去添加吧！"
+        android:id="@+id/tv_tip"
+        android:layout_alignParentTop="false"
+        android:textColor="@color/text_color3"
+        android:gravity="center_horizontal"
+        android:visibility="visible"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

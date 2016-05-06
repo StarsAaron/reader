@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="120dp"
+             android:layout_height="150dp"
+             android:background="@mipmap/book_cover_default">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_book_icon"
+        android:background="@mipmap/book5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitXY"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="书名"
+            android:id="@+id/tv_book_name"
+            android:textColor="@color/text_color"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="30dp"
+            android:singleLine="true"
+            android:gravity="center"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:background="@color/book_title_bg"
+            android:maxLines="3"
+            android:maxLength="20"
+            android:maxHeight="80dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="30%"
+            android:id="@+id/tv_process"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="false"
+            android:textColor="@color/text_color"
+            android:layout_below="@+id/tv_book_name"
+            android:layout_marginTop="30dp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btn_book_cover"
+        android:background="#00ffffff"/>
+
+</FrameLayout>

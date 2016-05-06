@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="head_bar">#59c0fb</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="line">#d7d7d7</color>
+
+    <color name="gray">#FFF2F2F2</color>
+
+    <color name="text_color">#414141</color>
+    <color name="text_color2">#949393</color>
+    <color name="text_color3">#FFFFFF</color>
+
+    <color name="main_bg_1">#fdf7d5</color>
+    <color name="main_bg_2">#668564</color>
+    <color name="main_bg_3">#997c56</color>
+
+    <color name="book_title_bg">#7b989696</color>
+
+</resources>

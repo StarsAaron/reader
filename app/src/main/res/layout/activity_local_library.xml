@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bysj.reader.ui.LocalLibraryActivity"
+    android:background="@mipmap/ic_bg">
+
+    <com.bysj.reader.view.ContentScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.bysj.reader.view.ContentGridView
+            android:id="@+id/content_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:horizontalSpacing="2dp"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0dp">
+        </com.bysj.reader.view.ContentGridView>
+    </com.bysj.reader.view.ContentScrollView>
+</RelativeLayout>

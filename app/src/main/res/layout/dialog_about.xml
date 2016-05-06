@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:gravity="top|center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="关于"
+        android:id="@+id/tv_dialog_title"
+        android:textColor="@color/head_bar"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView16"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/line"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="xxx"
+        android:id="@+id/tv_dialog_msg"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:gravity="left"
+        android:textColor="@color/head_bar"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/ll_btn_bar">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:id="@+id/btn_ok"
+            android:background="@drawable/dialog_click_bg"
+            android:layout_margin="5dp"
+            android:textColor="@color/text_color3"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:id="@+id/btn_cancel"
+            android:background="@drawable/dialog_click_bg"
+            android:layout_margin="5dp"
+            android:textColor="@color/text_color3"/>
+    </LinearLayout>
+
+</LinearLayout>

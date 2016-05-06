@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rl_container"
+        android:layout_alignParentTop="true"
+        >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/head_bar_height"
+        android:background="@mipmap/ic_head_bar_bg"
+        android:id="@+id/rl_title_bar"
+        android:visibility="visible"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/iv_reading_back"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@mipmap/ic_ab_back"
+            android:visibility="visible"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="标题"
+            android:id="@+id/tv_reading_title"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white"
+            android:singleLine="true"
+            android:maxWidth="250dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/ic_head_bar_bg"
+        android:gravity="center"
+        android:id="@+id/ll_foot_bar"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/iv_bar_screenorient"
+            android:background="@mipmap/bar_screenorient"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/iv_bar_scrollstart"
+            android:background="@mipmap/bar_scrollstart"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/iv_bar_light"
+            android:background="@mipmap/bar_light"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/iv_bar_menu"
+            android:background="@mipmap/bar_menu"
+            android:layout_marginLeft="5dp"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/iv_bar_night"
+            android:layout_marginLeft="5dp"
+            android:background="@mipmap/bar_night"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/iv_bar_bookmark"
+            android:background="@mipmap/bar_bookmark"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+</RelativeLayout>

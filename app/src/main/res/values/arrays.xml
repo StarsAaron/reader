@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="textsize">
+        <item>18</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+    </string-array>
+
+    <string-array name="textcolor">
+        <item>#414141</item>
+        <item>#949393</item>
+        <item>#FFFFFF</item>
+    </string-array>
+
+    <string-array name="bgcolor">
+        <item>#fdf7d5</item>
+        <item>#668564</item>
+        <item>#997c56</item>
+    </string-array>
+
+    <string-array name="language">
+        <item>中文</item>
+        <item>English</item>
+    </string-array>
+</resources>
